@@ -1,11 +1,18 @@
-<img src="https://github.com/buchtioof/portfolio/blob/main/public/img/assets/projects/docs.png?raw=true" alt="image de couverture docs">
+---
+hide:
+  - navigation
+  - toc
+---
 
-# Bienvenue dans mes notes de devops
+<div class="home-page" markdown>
+  <div id="aurora-root" class="aurora-container noise-overlay">
+    <canvas id="aurora-canvas" class="aurora-canvas" aria-hidden="true"></canvas>
+  </div>
 
-je note mon parcours et mes projets en SysAdmin
-
-## Sommaire
-
--> Notes *notes de cours, apprentissages en dehors, un peu de tout*
-
--> Projets *notes sur mes projets de cours/personnels, note de mes experiences*
+  <div class="content">
+    <h1 class="dynamic-heading">
+      <span class="dynamic-text">hello world!</span>
+    </h1>
+    <p>Étudiant en 2ème année de BTS Cybernumérique, Informatique et Réseaux</p>
+  </div>
+</div>

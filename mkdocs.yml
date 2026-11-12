@@ -1,35 +1,12 @@
-site_name: Les incroyables notes de devops
-repo_name: buchtioof/notes
-repo_url: https://github.com/buchtioof/notes
+site_name: Le carnet de notes de Ramzi ☝️🤓
+repo_name: buchtioof/notebook
+repo_url: https://github.com/buchtioof/notebook
 
 theme:
   logo: assets/logo.svg
   features:
     - navigation.instant
-  palette:
-    # Palette toggle for automatic mode
-    - media: "(prefers-color-scheme)"
-      toggle:
-        icon: lucide/sun-moon
-        name: Switch to light mode
-
-    # Palette toggle for light mode
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: pink
-      accent: deep purple
-      toggle:
-        icon: lucide/sun
-        name: Switch to dark mode
-
-    # Palette toggle for dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: pink
-      accent: purple
-      toggle:
-        icon: lucide/moon
-        name: Switch to light mode
+    - navigation.tabs
   icon:
     repo: fontawesome/brands/git-alt
     admonition:
@@ -48,6 +25,11 @@ theme:
 
 extra_css:
   - stylesheets/index.css
+  - stylesheets/aurora.css
+
+extra_javascript:
+  - javascripts/aurora.js
+  - javascripts/hello.js
 
 nav:
   - Accueil: index.md
@@ -79,13 +61,14 @@ nav:
     - 🎨 Frontend :
       - learn/frontend/2026-02-21.md
   - Projets:
-    - Stage:
+    - Stage (Mr Box Tea):
       - projects/stage/main.md
       - projects/stage/2026-03-03.md
       - projects/stage/2026-03-09.md
     - projects/2025-12-05.md
     - projects/2026-01-23.md
     - projects/2026-02-13.md
+    - projects/2026-11-10.md
   
 markdown_extensions:
   - tables
@@ -97,5 +80,10 @@ markdown_extensions:
   - attr_list
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
+
+plugins:
+  - search:
+      enabled: false
+
 
 

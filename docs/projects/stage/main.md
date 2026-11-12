@@ -1,5 +1,4 @@
-# Spécification de Projet : "GrabberBoxTea"
-**Solution d'Infrastructure "Clé en Main" pour TPE**
+# Spécification de Projet : "BoxTea"
 
 ## Contexte et Objectif
 Pour une TPE qui a des besoins sysops spécifiques mais voulant garder un controle total de leurs données sans avoir à dépendre d'outils externes (ex. Google, AWS)
