@@ -1,19 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Momo+Signature&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap');
 
 /* Homepage styling */
+
 body:has(.home-page) h1 {
-  font-family: "Momo Signature";
-  font-weight: 400;
+  font-family: "Hachi Maru Pop";
+  font-weight: 800;
   font-size: 42px;
+  margin: 0 0 1em;
+}
+
+body:has(.home-page) h2 {
+  font-family: "Parkinsans";
+  font-weight: 400;
+  font-size: 24px;
   margin: 0 0 0.5em;
 }
 
 body:has(.home-page) p {
-  font-family: "Silkscreen";
+  font-family: "Parkinsans";
   font-weight: 400;
-  font-size: 42px;
-  margin: 0 0 0.5em;
+  font-size: 18px;
+  margin: 0 0 1em;
 }
 
 body:has(.home-page) .md-header__topic:first-child {
@@ -21,7 +30,7 @@ body:has(.home-page) .md-header__topic:first-child {
 }
 
 body:has(.home-page) .md-content__inner {
-  margin-top: 30vh;
+  margin: 30vh 20vh;
 }
 
 .dynamic-heading {
@@ -35,7 +44,6 @@ body:has(.home-page) .md-content__inner {
   opacity: 1;
   transform: translateY(0);
   transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
-  color: var(--md-primary-fg-color);
 }
 
 .dynamic-text.fade-out {

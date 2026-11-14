@@ -6,9 +6,9 @@ document.addEventListener('DOMContentLoaded', () => {
         "hello world!",        // Anglais
         "bonjour le monde !",  // Français
         "¡hola mundo!",        // Espagnol
+        "ハロー・ワールド!",           // Japonais
         "hallo welt!",         // Allemand
-        "ciao mondo!",         // Italien
-        "olá mundo!"           // Portugais
+        "ciao mondo!"         // Italien  
     ];
 
     let currentIndex = 0;
